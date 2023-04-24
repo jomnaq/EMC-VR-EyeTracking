@@ -13,7 +13,7 @@ public class Orb_Behavior : MonoBehaviour
     private string filePath;
     private StreamWriter writer;
     private float lastTime;
-    private const float INCREMENT = 0.02;
+    private const float INCREMENT = 0.02f;
     
     // Start is called before the first frame update
     void Start()
