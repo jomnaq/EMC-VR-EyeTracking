@@ -13,7 +13,7 @@ public class Orb_Behavior : MonoBehaviour
     private string filePath;
     private StreamWriter writer;
     private float lastTime;
-    private const float INCREMENT = 0.02;
+    private const float INCREMENT = 0.01f;
     
     // Start is called before the first frame update
     void Start()
@@ -46,15 +46,17 @@ public class Orb_Behavior : MonoBehaviour
             transform.Translate(moveSpeed * Time.deltaTime, 0, 0);
         }
 
+        long epochTimeMillis = (long)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalMilliseconds;
+
         lastTime += Time.deltaTime;
         if(lastTime >= INCREMENT) {
             lastTime = lastTime % INCREMENT;
             string textToWrite =
-            $"{Time.time}, {transform.position.x}, {transform.position.y}";
+            $"{epochTimeMillis}, {transform.position.x}, {transform.position.y}";
 
             writer.WriteLine(textToWrite);
             
         }
-        Debug.Log(lastTime);
+        Debug.Log(epochTimeMillis);
     }
 }
