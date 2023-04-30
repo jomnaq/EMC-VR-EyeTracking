@@ -60,9 +60,9 @@ with open('in.csv', 'r') as input_file, open('cleaned.csv', 'w') as output_file:
         if(len(line_arr) <= 11):
             break
 
-        # time = int(line_arr[0])
-        # if(time < min_time or time > max_time):
-        #     continue
+        time = int(line_arr[0])
+        if(time < min_time or time > max_time):
+            continue
 
         x = float(line_arr[8])
         y = float(line_arr[9])
