@@ -1,33 +1,47 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Packages/manifest.json
+    m_FilePath: C:/Users/elega/Desktop/eyetracking/repo/EMC-VR-Depth/EMC_VR_Depth/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638172725080000000
-    m_Hash: 1719789460
+      ticks: 638184847182221084
+    m_Hash: 109835966
   m_LockFileStatus:
-    m_FilePath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Packages/packages-lock.json
+    m_FilePath: C:/Users/elega/Desktop/eyetracking/repo/EMC-VR-Depth/EMC_VR_Depth/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638172725080000000
-    m_Hash: 1755400957
+      ticks: 638184847182286145
+    m_Hash: 572767866
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
-m_ProjectPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Packages
-m_EditorVersion: 2021.3.22f1 (b6c551784ba3)
+  m_LocalFileStatus:
+  - m_FilePath: C:\Users\elega\Desktop\eyetracking\varejo_code\VarjoUnityXRPlugin/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638181424993486761
+    m_Hash: 2173688017
+  - m_FilePath: C:\Users\elega\Desktop\eyetracking\varejo_code\VarjoUnityXRPlugin
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
+m_ProjectPath: C:/Users/elega/Desktop/eyetracking/repo/EMC-VR-Depth/EMC_VR_Depth/Packages
+m_EditorVersion: 2021.3.16f1 (4016570cf34f)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.0.1
   testable: 0
   isDirectDependency: 1
   version: 2.0.1
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.collab-proxy@2.0.1
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.collab-proxy@2.0.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -111,13 +125,22 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
+    - 1.17.7
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0
     - 2.0.1
     - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 2.0.4
+    verified: 1.17.7
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -154,14 +177,14 @@ m_ResolvedPackages:
     revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 1.17.7
     nextVersion: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.feature.development@1.0.1
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -216,7 +239,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
-    version: 1.2.2
+    version: 1.1.1
   - name: com.unity.testtools.codecoverage
     version: 1.2.2
   - name: com.unity.settings-manager
@@ -248,7 +271,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.18
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.ide.rider@3.0.18
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -302,6 +325,8 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
+    - 3.0.16
+    - 3.0.17
     - 3.0.18
     - 3.0.20
     - 3.0.21
@@ -332,14 +357,14 @@ m_ResolvedPackages:
     revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.18
+    version: 3.0.16
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
   version: 2.0.17
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.ide.visualstudio@2.0.17
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -378,6 +403,7 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
+    - 2.0.16
     - 2.0.17
     - 2.0.18
     verified: 2.0.18
@@ -413,14 +439,14 @@ m_ResolvedPackages:
     revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.17
+    version: 2.0.16
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -482,7 +508,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.test-framework@1.1.31
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -596,7 +622,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -765,7 +791,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.timeline@1.6.4
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -849,6 +875,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -861,6 +888,7 @@ m_ResolvedPackages:
     - 1.8.2
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -871,7 +899,7 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -922,7 +950,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -941,6 +969,7 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -985,7 +1014,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.0
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.visualscripting@1.8.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1029,8 +1058,9 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     compatible:
+    - 1.7.8
     - 1.8.0
-    verified: 1.8.0
+    verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1065,14 +1095,92 @@ m_ResolvedPackages:
     revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.8.0
+    version: 1.7.8
+    nextVersion: 
+- packageId: com.varjo.xr@file:C:\Users\elega\Desktop\eyetracking\varejo_code\VarjoUnityXRPlugin
+  testable: 0
+  isDirectDependency: 1
+  version: 3.4.0
+  source: 4
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\varejo_code\VarjoUnityXRPlugin
+  assetPath: Packages/com.varjo.xr
+  name: com.varjo.xr
+  displayName: Varjo XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides support for Varjo devices using the Unity XR SDK.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.xr.arfoundation
+    version: 4.2.7
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.xr.arfoundation
+    version: 4.2.7
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.7
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords:
+  - varjo
+  - xr
+  - vr
+  - mixed
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://developer.varjo.com/docs/unity-xr-sdk/unity-xr-sdk
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/varjocom/VarjoUnityXRPlugin.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1121,7 +1229,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1169,7 +1277,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1218,7 +1326,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1267,7 +1375,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1316,7 +1424,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1369,7 +1477,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1426,7 +1534,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1476,7 +1584,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1525,7 +1633,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1574,7 +1682,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1623,7 +1731,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1672,7 +1780,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1721,7 +1829,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1774,7 +1882,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1823,7 +1931,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1880,7 +1988,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1932,7 +2040,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1981,7 +2089,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2046,7 +2154,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2095,7 +2203,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2152,7 +2260,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2201,7 +2309,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2258,7 +2366,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2315,7 +2423,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2372,7 +2480,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2445,7 +2553,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2498,7 +2606,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2559,7 +2667,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2622,7 +2730,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2671,7 +2779,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2732,7 +2840,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2785,7 +2893,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -2840,12 +2948,346 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+- packageId: com.unity.xr.management@4.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 4.2.1
+  source: 1
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.xr.management@4.2.1
+  assetPath: Packages/com.unity.xr.management
+  name: com.unity.xr.management
+  displayName: XR Plugin Management
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Package that provides simple management of XR plug-ins. Manages and
+    offers help with loading, initialization, settings, and build support for XR
+    plug-ins.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.8
+    - 0.1.0-preview.12
+    - 1.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.0.0-preview.6
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.13
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0-preview.24
+    - 2.0.0-preview.25
+    - 2.0.0-preview.26
+    - 3.0.1
+    - 3.0.2-preview.1
+    - 3.0.2-preview.2
+    - 3.0.3
+    - 3.0.4-preview.1
+    - 3.0.4-preview.3
+    - 3.0.4
+    - 3.0.5-preview.1
+    - 3.0.5
+    - 3.0.6-preview.2
+    - 3.0.6
+    - 3.1.0-preview.2
+    - 3.2.4
+    - 3.2.6
+    - 3.2.7
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11-preview.1
+    - 3.2.12
+    - 3.2.13
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 4.0.0-exp.2
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.1
+    - 4.0.3
+    - 4.0.5
+    - 4.0.6
+    - 4.0.7
+    - 4.1.0-pre.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 4.3.1
+    - 4.3.3
+    compatible:
+    - 4.2.0
+    - 4.2.1
+    - 4.3.1
+    - 4.3.3
+    verified: 4.2.1
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.7
+  - name: com.unity.subsystemregistration
+    version: 1.0.6
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  keywords:
+  - xr
+  - sdk
+  - ar
+  - vr
+  - management
+  - build
+  - plugin
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637769778170000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
+    revision: 9c99228887ff65cc0729434b3b9371d22b707cb9
+    path: 
+  unityLifecycle:
+    version: 4.2.0
+    nextVersion: 
+- packageId: com.unity.xr.arfoundation@4.2.7
+  testable: 0
+  isDirectDependency: 0
+  version: 4.2.7
+  source: 1
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.xr.arfoundation@4.2.7
+  assetPath: Packages/com.unity.xr.arfoundation
+  name: com.unity.xr.arfoundation
+  displayName: AR Foundation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "A collection of MonoBehaviours and C# utilities for working with
+    AR Subsystems. \n\nIncludes: \n\u25AA GameObject menu items for creating an AR
+    setup \n\u25AA MonoBehaviours that control AR session lifecycle and create GameObjects
+    from detected, real-world trackable features \n\u25AA Scale handling \n\u25AA
+    Face tracking\n\nSamples available at https://github.com/Unity-Technologies/arfoundation-samples"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.22
+    - 1.1.0-preview.6
+    - 1.5.0-preview.2
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 2.0.2
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.8
+    - 2.1.10
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.6
+    - 3.0.1
+    - 3.1.0-preview.1
+    - 3.1.0-preview.3
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.2
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    compatible:
+    - 4.2.7
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    verified: 4.2.7
+  dependencies:
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.7
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.arsubsystems
+    version: 4.2.7
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - foundation
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638034330250000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: f49c023e846a14016db6ff2bc4c5d0d2e421bef6
+    path: 
+  unityLifecycle:
+    version: 4.2.7
+    nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -2906,7 +3348,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -2960,12 +3402,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.performance.profile-analyzer@1.2.2
+- packageId: com.unity.performance.profile-analyzer@1.1.1
   testable: 0
   isDirectDependency: 0
-  version: 1.2.2
+  version: 1.1.1
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -2999,8 +3441,9 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.2.2
     compatible:
+    - 1.1.1
     - 1.2.2
-    verified: 1.2.2
+    verified: 1.1.1
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3014,23 +3457,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638108624620000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
+  datePublishedTicks: 637705021060000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
+    revision: 6dcda6aee96901e98a4f01b85589054b9274ba74
     path: 
   unityLifecycle:
-    version: 1.2.2
+    version: 1.1.1
     nextVersion: 
 - packageId: com.unity.testtools.codecoverage@1.2.2
   testable: 0
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3123,12 +3566,332 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.2
     nextVersion: 
+- packageId: com.unity.xr.arsubsystems@4.2.7
+  testable: 0
+  isDirectDependency: 0
+  version: 4.2.7
+  source: 1
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.xr.arsubsystems@4.2.7
+  assetPath: Packages/com.unity.xr.arsubsystems
+  name: com.unity.xr.arsubsystems
+  displayName: AR Subsystems
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Contains definitions for AR Subsystems. This package is a dependency
+    of provider packages, as well as AR Foundation.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.2
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0
+    - 3.0.2
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.1
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    compatible:
+    - 4.2.7
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    verified: 4.2.7
+  dependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.xr.management
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.subsystemregistration
+    version: 1.1.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  keywords:
+  - subsystem
+  - XR
+  - AR
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638034330150000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: f49c023e846a14016db6ff2bc4c5d0d2e421bef6
+    path: 
+  unityLifecycle:
+    version: 4.2.7
+    nextVersion: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.10
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.10
+  source: 1
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: asset
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    compatible:
+    - 2.1.10
+    verified: 2.1.10
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637958908030000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
+    path: 
+  unityLifecycle:
+    version: 2.1.10
+    nextVersion: 
+- packageId: com.unity.subsystemregistration@1.1.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.1.0
+  source: 1
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+  assetPath: Packages/com.unity.subsystemregistration
+  name: com.unity.subsystemregistration
+  displayName: Subsystem Registration
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Provides internal registration mechanism for standalone subsystems. 
+    It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    compatible:
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    verified: 1.1.2
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - subsystem
+  - registration
+  - internal
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637314426150000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
+    revision: 72584ba5248fbe79e560e795ad819f876954fceb
+    path: 
+  unityLifecycle:
+    version: 1.1.0
+    nextVersion: 
 - packageId: com.unity.settings-manager@1.0.3
   testable: 0
   isDirectDependency: 0
   version: 1.0.3
   source: 1
-  resolvedPath: /Users/michaelbunte/Desktop/everything/soph_classes/em/depth/EMC-VR-Depth/EMC_VR_Depth/Library/PackageCache/com.unity.settings-manager@1.0.3
+  resolvedPath: C:\Users\elega\Desktop\eyetracking\repo\EMC-VR-Depth\EMC_VR_Depth\Library\PackageCache\com.unity.settings-manager@1.0.3
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager

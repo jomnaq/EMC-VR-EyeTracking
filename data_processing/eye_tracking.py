@@ -68,9 +68,10 @@ with open('in.csv', 'r') as input_file, open('cleaned.csv', 'w') as output_file:
         y = float(line_arr[9])
         z = float(line_arr[10])
 
-        adj_x = (x/z) * 20
-        adj_y = (y/z) * 20
-        adj_z = (z/z) * 20
+        scale = 36
+        adj_x = (x/z) * scale
+        adj_y = (y/z) * scale + 1
+        adj_z = (z/z) * scale
 
         out_line = f"{line_arr[0]},{adj_x},{adj_y},{adj_z}\n"
 

@@ -19,11 +19,11 @@ public class Orb_Behavior : MonoBehaviour
     void Start()
     {
         lastTime = 0;
-        moveSpeed = 20f;
+        moveSpeed = 10f;
         transform.position = new Vector3(-20, 0, 20);
         System.Random random = new System.Random();
-        double minValue = 1.0;
-        double maxValue = 2.5;
+        double minValue = 2.0;
+        double maxValue = 5.0;
         randomValue = random.NextDouble() * (maxValue - minValue) + minValue;
         Invoke("DoSomethingDifferent", (float)randomValue);
         filePath = Application.dataPath + "/out.csv";

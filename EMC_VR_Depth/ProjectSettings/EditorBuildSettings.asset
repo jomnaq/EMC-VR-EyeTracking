@@ -4,5 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 14702a1ef24e19641b65e17c4de98f0d
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    Varjo.XR.Settings: {fileID: 11400000, guid: 656fe535d72ae754684192f1886a6b5f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d7e65656b87db714bac4e6a617cbc5d7, type: 2}
