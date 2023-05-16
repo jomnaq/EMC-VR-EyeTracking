@@ -1,0 +1,4 @@
+"0","eye <- read.csv(""eye1.csv"")"
+"2","Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
+   列名よりも列数のほうが多いです 
+"

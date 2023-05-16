@@ -1,0 +1,31 @@
+```{r, cleaning and reading in data}
+library(dplyr)
+library(stringr)
+
+# List all the CSV files in the directory
+csv_files <- list.files(pattern = ".csv")
+
+# Create an empty dataframe to store the data
+all_data <- data.frame()
+
+# Loop through each CSV file, read it into a dataframe, and add a column for the filename
+for (file in csv_files) {
+  data <- read.csv(file)
+  data <- data %>%
+    mutate(time..milliseconds. = time..milliseconds.- time..milliseconds.[1])
+  data$filename <- file
+  data <- data %>%
+    dplyr::rename(test = filename, time = time..milliseconds.) %>%
+    mutate(test = str_sub(test, 1, -5)) %>%
+    mutate(test = str_replace(test, "out", "")) %>%
+    mutate(time = as.integer(time)) %>%
+    na.omit()
+  all_data <- rbind(all_data, data)
+}
+
+# View the final combined dataframe
+print(all_data)
+
+#write file
+write.csv(all_data, "C:\\Users\\joann\\OneDrive\\Desktop\\EMC\\EMC Analysis\\Gen_Tests\\all_orb_paths.csv", row.names = FALSE)
+```

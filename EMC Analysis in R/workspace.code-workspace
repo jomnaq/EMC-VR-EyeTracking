@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../cs/github/COMSCI32/HW4"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"list": "cpp"
+		}
+	}
+}

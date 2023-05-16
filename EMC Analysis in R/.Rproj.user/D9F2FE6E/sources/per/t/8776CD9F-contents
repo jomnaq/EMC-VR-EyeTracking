@@ -1,0 +1,79 @@
+---
+title: "orb path analysis test 5"
+output: html_document
+date: "2023-05-13"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+```
+
+
+## Orb Path Shenanigans
+
+```{r}
+
+# reading in orb paths, total of 4 trials
+test1 <- read.csv("out1.csv")
+test2 <- read.csv("out2.csv")
+test3 <- read.csv("out3.csv")
+test4 <- read.csv("out4.csv")
+
+# cleaning time, NAs, and column names for all tests
+test1 <- test1 %>%
+  rename(time = time..milliseconds., x_orb = x, y_orb = y) %>%
+  mutate(time = time - 1683838535169) %>%
+  na.omit
+test2 <- test2 %>%
+  rename(time = time..milliseconds., x_orb = x, y_orb = y) %>%
+  mutate(time = time - 1683838513081) %>%
+  na.omit
+test3 <- test3 %>%
+  rename(time = time..milliseconds., x_orb = x, y_orb = y) %>%
+  mutate(time = time - 1683838516303) %>%
+  na.omit
+test4 <- test4 %>%
+  rename(time = time..milliseconds., x_orb = x, y_orb = y) %>%
+  mutate(time = time - 1683838519481) %>%
+  na.omit
+
+# joining all tests togehter
+tests12 <- test1 %>%
+  inner_join(test2, by = "time", suffix = c("_1", "_2")) 
+tests34 <- test3 %>%
+  inner_join(test4, by = "time", suffix = c("_3", "_4"))
+
+joined_tests <- tests12 %>%
+  full_join(tests34, by = "time")
+
+# reformatting for graphing later
+reformatted <- joined_tests %>%
+  pivot_longer(cols = c(2:9), names_to = "test", values_to = "position")
+
+# separating by x and y
+x_paths <- reformatted %>%
+  filter(str_detect(test, "x_")) %>%
+  na.omit() %>%
+  group_by(time) %>%
+  summarize(avg_x_pos = mean(position))
+
+y_paths <- reformatted %>%
+  filter(str_detect(test, "y_")) %>%
+  na.omit() %>%
+  group_by(time) %>%
+  summarize(avg_y_pos = mean(position))
+# since it goes up and down now though, you'll need to adjust or that
+x_paths
+y_paths
+```
+
+## Eye tracking shenanigans (attempt)
+```{r}
+eye <- read.csv("eye1.csv")
+```
+
+
+

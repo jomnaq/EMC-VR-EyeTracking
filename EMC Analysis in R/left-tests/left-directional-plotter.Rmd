@@ -1,0 +1,39 @@
+
+```{r}
+# List all the CSV files in the directory
+csv_files <- list.files(pattern = ".csv")
+
+# Create an empty dataframe to store the data
+all_left_data <- data.frame()
+
+# Loop through each CSV file, read it into a dataframe, and add a column for the filename
+for (file in csv_files) {
+  data <- read.csv(file)
+  data$filename <- file
+  all_left_data <- rbind(all_left_data, data)
+}
+
+# View the final combined dataframe
+print(all_left_data)
+
+# in theory, this should average the position for all 
+all_left_data <- all_left_data %>%
+  select(time, test, y_eye, y_orb, x_eye, x_orb) %>%
+  group_by(test, time) %>%
+  summarise(across(c(y_eye,y_orb,x_eye,x_orb), mean))
+
+all_left_data
+
+# plots each left test's x-comp
+ggplot(all_left_data, aes(x = time, y = x_eye)) +
+  geom_line(color = "red", linewidth = 1) +
+  geom_line(aes(x = time, y = x_orb), color = "blue", linewidth = 1) +
+  facet_wrap(~test)
+
+# plots each down test's y-comp
+ggplot(all_left_data, aes(x = time, y = y_eye)) +
+  geom_line(color = "red", linewidth = 1) +
+  geom_line(aes(x = time, y = y_orb), color = "blue", linewidth = 1) +
+  facet_wrap(~test)
+```
+
