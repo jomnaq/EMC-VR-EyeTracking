@@ -1,11 +1,11 @@
 {
     "id": "8776CD9F",
     "path": "C:/Users/joann/OneDrive/Desktop/EMC/EMC Analysis/Test_5/test5Analysis.Rmd",
-    "project_path": "Test_5/test5Analysis.Rmd",
+    "project_path": null,
     "type": "r_markdown",
     "hash": "591703405",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1683947479818.0,
     "source_on_save": false,
     "relative_order": 2,
